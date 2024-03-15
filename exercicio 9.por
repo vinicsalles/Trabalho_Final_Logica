@@ -19,7 +19,7 @@ programa
 		{
 	 	para (i=n1; i<=n2; i+=2)
 	 	{
-	 	escreva (i, "\n")
+	 	
 	 	soma1= soma1+i
 	 	
 	 	}
@@ -30,7 +30,7 @@ programa
 		{
 		para (i=0; i<=n2; i+=2)
 		{
-		escreva (i, "\n")
+	
 	 	soma2= soma2+i
 		}
 	 	escreva ("a soma dos numeros pares entre n1 e n2 é: ",soma2)
