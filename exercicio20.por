@@ -4,10 +4,11 @@ programa
 	funcao inicio()
 	{
 		
-		real Transacao[15][2], totalVista=0.0, totalPrazo=0.0, total=0.0
+	real Transacao[15][2], totalVista=0.0, totalPrazo=0.0, total=0.0
 		
         para (inteiro i=0; i<15; i++) {       	
             para (inteiro j=0; j<2; j++) {
+            		//Nesse ponto, o usuário precisa digitar o código da venda (1 ou 2) e após visualizar a mesma mensagem, digitar o valor da venda//
 			escreva("Informe o código: \n1 - À Vista \n2 - Parcelado \nEm seguida o valor: \n")
         		leia(Transacao[i][j])
             }
