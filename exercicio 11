@@ -1,15 +1,15 @@
 programa
 {
-	/*11. Elabora um programa que peça ao usuário que entre com 10 números. Após solicite que o usuário escolha se
-quer que sejam impressos os números em ordem crescente ou decrescente e conforme a escolha do usuário
-e faça a impressão da série.*/
+	/*11. Elabora um programa que peÃ§a ao usuÃ¡rio que entre com 10 nÃºmeros. ApÃ³s solicite que o usuÃ¡rio escolha se
+quer que sejam impressos os nÃºmeros em ordem crescente ou decrescente e conforme a escolha do usuÃ¡rio
+e faÃ§a a impressÃ£o da sÃ©rie.*/
 
 	funcao inicio()
 	{
 		inteiro num[10], aux
 		caracter opcao
 		para (inteiro i=0; i<10; i++) {
-			escreva("Informe o ", i+1, "° número: ")
+			escreva("Informe o ", i+1, "Â° nÃºmero: ")
 			leia(num[i])
 		}
 		
@@ -17,7 +17,7 @@ e faça a impressão da série.*/
 		leia(opcao)
 		
 		se(opcao == 'C' ou opcao == 'c') {
-				escreva ("Os números na ordem crescente são: ")
+				escreva ("Os nÃºmeros na ordem crescente sÃ£o: ")
 		para(inteiro i = 0; i < 10; i++){
 			para( inteiro j = i + 1; j < 10; j++) {
 				se(num[i] > num[j]) {
@@ -29,7 +29,7 @@ e faça a impressão da série.*/
 			escreva (num[i], " ; ")
 		}
 			} senao {
-				escreva("Os numeros na ordem decrescente são: ")
+				escreva("Os numeros na ordem decrescente sÃ£o: ")
 				
 				para(inteiro i = 0; i < 10; i++) {
 					para(inteiro j = i + 1; j < 10; j++) {
