@@ -32,7 +32,7 @@ programa
 			caso '/':escreva(Divisao(n1, n2))
 			pare
 			caso '*':escreva(Multiplicacao(n1, n2))
-			
+			pare
 			caso contrario: escreva("Operador inválido")
 			pare
 		}
