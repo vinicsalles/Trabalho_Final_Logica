@@ -12,7 +12,7 @@
 
 -Gabriel Pimentel
 
--Izabella de Lucca
+-Izabella Prandino de Lucca
 
 -Leonardo Guerarti Cunha
 
