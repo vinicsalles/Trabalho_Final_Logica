@@ -14,7 +14,6 @@ programa
 		leia(numero)
 
 		parteInteira =  numero
-		escreva(parteInteira)
 		parteDecimal = numero - parteInteira
 
 		escreva("\nInteiro: " + parteInteira)
