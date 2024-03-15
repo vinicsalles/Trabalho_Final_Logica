@@ -3,7 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num,maior=-1,menor =10,soma = 0,media =0
+		inteiro num,maior=-1,menor =10,soma = 0
+		real media =0
 		para(inteiro i =1;i<=10;i++){
 			escreva("Informe o ", i, "º número: ")
       		 leia(num)
